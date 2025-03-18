@@ -804,14 +804,6 @@
     margin-bottom: 30px;
   }
 }
-/* Footer Styling */
-.footer {
-  background: #000; /* Dark background */
-  color: white;
-  text-align: center;
-  padding: 20px 10px;
-  font-size: 1rem;
-}
 
 /* Footer Links */
 .footer-links {
@@ -856,7 +848,7 @@ body {
 /* Privacy Section */
 .privacy-section {
   text-align: center;
-  padding: 50px 10%;
+  padding: 50px 0 0;
 }
 
 /* Title */
@@ -900,17 +892,10 @@ body {
   color: #B56576;
 }
 
-/* Footer */
-.privacy-footer {
-  margin-top: 20px;
-  font-size: 0.9rem;
-  opacity: 0.8;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .privacy-section {
-    padding: 30px 5%;
+    padding: 30px 5% 0px;
   }
 }
 .back {
@@ -992,7 +977,7 @@ body {
 }
 
 /* Footer */
-footer {
+footer , .footer{
   text-align: center;
   padding: 15px;
   background: #333;
@@ -1068,16 +1053,4 @@ body {
 
 .terms-card ul {
   padding-left: 20px;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 15px;
-  background: #333;
-  color: white;
-  font-size: 14px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
 }
