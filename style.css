@@ -553,8 +553,11 @@
     flex-direction: column;
     align-items: center;
   }
+  .testimonials h1{
+    font-size: 2rem;
+  }
   .testMonialCard {
-    max-width: 80%;
+    max-width: 92%;
   }
 }
 
@@ -682,9 +685,14 @@
   .faq-right {
     max-width: 100%;
   }
-
   .faq-left {
     margin-bottom: 30px;
+  }
+  .faq-question h3{
+    font-size: 1.2rem;
+  }
+  .faq-left h1{
+    font-size: 2rem;
   }
 
   .faq-right {
@@ -779,7 +787,8 @@
 
   .contact-image,
   .contact-form {
-    max-width: 90%;
+    max-width: 100%;
+    padding: 10px;
   }
 
   .contact-image {
